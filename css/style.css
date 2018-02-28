@@ -1,0 +1,16 @@
+html {background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+    height: 100%;
+    width:100%;
+    margin:0;position:relative;
+}
+
+
+li {display: inline-block; color: white;}
+a {text-decoration: none; color: white;}
+
+
+#demo {width: 100%; height: auto;}

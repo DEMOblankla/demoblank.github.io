@@ -1,0 +1,186 @@
+/*--------------------------------------------FONT --------------------------------------------*/
+
+@font-face {
+  font-family: 'sansserifflfdemibold';
+  src: url('sansserifflf-demibold-webfont.woff2') format('woff2'), url('sansserifflf-demibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sansserifflfmedium_italic';
+  src: url('sansserifflf-demiitalic-webfont.woff2') format('woff2'), url('sansserifflf-demiitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sansserifflfitalic';
+  src: url('sansserifflf-italic-webfont.woff2') format('woff2'), url('sansserifflf-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sansserifflfmedium';
+  src: url('fonts/sansserifflf-webfont.woff2') format('woff2'), url('fonts/sansserifflf-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-family: 'open sans', sans-sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+h3 {
+  font-family: 'open sans', sans-sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+p {
+  font-family: 'sansserifflfmedium';
+  font-size: 20px;
+}
+
+/*--------------------------------------------FONT END --------------------------------------------*/
+header {
+  background: black;
+  color: white;
+width: 100%;}
+.toplogo {padding:25px;}
+.toplogo img{
+max-width: 100%; height: auto;
+}
+
+
+/*--------------------------------------------NAVIGATION--------------------------------------------*/
+
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  list-style: none;
+  float: right;
+  padding: 0px 100px;
+
+}
+
+.navbar li {
+
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+
+}
+
+.navbar a {
+display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 2px 20px;
+  text-decoration: none;
+}
+
+#donate {
+  color: white;
+  background-color: black;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  background: linear-gradient(#006DB6, #E71A4A);
+  color: white;
+
+}
+#active {
+  background: linear-gradient(#006DB6, #E71A4A);
+  color: white;
+  display: inline-block;
+     border-left-style: solid; border-right-style: solid; border-top-style: hidden; border-bottom-style: hidden; border-color: white;
+}
+
+/*--------------------------------------------BODY--------------------------------------------*/
+
+body {
+  margin: 0;
+}
+.row {  clear: right;
+
+  overflow: scroll;
+  width: 100%; height: 800px;
+  display: inline-block;
+  background-color: white;
+}
+.column {
+
+  padding-left: 15%; padding-right: 15%; padding-top: 5%; }
+
+.column p a {text-decoration: none; color:black;}
+
+
+/*--------------------------------------------FOOTER--------------------------------------------*/
+
+footer {
+  background-color: black;
+
+  color: white;
+  bottom: 0;
+  width:100%;
+  position: fixed;
+  height: auto;
+  display: inline-block;
+}
+.footer {float: left;
+    width: 33.33%;
+
+  }
+.footer p {  text-align: center;
+  font-size: 12px;}
+
+.footer p a {
+  text-decoration: none;
+  color: white;
+}
+
+footer img {
+  width: 150px;
+  height: auto;
+}
+
+/*--------------------------------------------RESPONSIVE--------------------------------------------*/
+
+.row:after {
+
+  display: table;
+  clear: both;
+}
+@media (max-height:1100px) { .row {height: 60vh}}
+@media (max-height:650px) {.row {height: 40vh} }
+@media (max-width: 700px) {
+
+
+  .navbar ul li {
+    float: none;
+    width: 100%;
+  }
+  .row {
+    width: 100%;overflow-y: scroll;
+  }
+footer {width:100%;}
+  .footer {float:none; width: 100%; text-align: center; }
+  .map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+}
