@@ -62,7 +62,7 @@ max-width: 100%; height: auto;
   background-color: white;
   list-style: none;
   float: right;
-  padding: 0px 100px;
+  padding: 20px 100px;
 
 }
 
@@ -115,8 +115,11 @@ body {
 }
 .column {
 
-  padding-left: 15%; padding-right: 15%; padding-top: 5%; }
+  padding: 5% 15%; }
 
+.column h2 {padding: 2%;}
+.column h3 {padding: 2%;}
+.column p {padding: 2%}
 .column p a {text-decoration: none; color:black;}
 
 
@@ -131,6 +134,7 @@ footer {
   position: fixed;
   height: auto;
   display: inline-block;
+  padding: 2%;
 }
 .footer {float: left;
     width: 33.33%;
@@ -145,7 +149,7 @@ footer {
 }
 
 footer img {
-  width: 150px;
+  width: 200px;
   height: auto;
 }
 
