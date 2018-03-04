@@ -71,7 +71,7 @@ a {text-decoration: none; color: black;}
 @media (max-width: 1100px) {
 .fa-bars {float: right;display: inline-block; padding: 10px;}
 
-  nav:hover ul {display: inline-block;}
+  nav:focus ul {display: inline-block;}
 
 
 .navbar {padding: 2px 0px;}
@@ -95,7 +95,7 @@ a {text-decoration: none; color: black;}
 
   	}
 
-  	nav:hover ul {
+  	nav:focus ul {
 
   		display: block;
 

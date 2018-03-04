@@ -86,7 +86,7 @@ header {top: 0;background:black; display: table-row; height: 1px;
   display: inline-block;
 }
 
-.navbar a:hover {
+.navbar a:focus {
   background: linear-gradient(#006DB6, #E71A4A);
   color: white;
 }
@@ -160,7 +160,7 @@ footer img {
 @media (max-width: 700px) {
 .fa-bars {float: right;display: inline-block; padding: 10px;}
 
-  nav:hover ul {display: inline-block;}
+  nav:focus ul {display: inline-block;}
   #active {border-style: hidden;background: white; color: black;}
   #donate {background: white; color: black;}
 
@@ -185,7 +185,7 @@ footer img {
 
   	}
 
-  	nav:hover ul {
+  	nav:focus ul {
 
   		display: block;
 
