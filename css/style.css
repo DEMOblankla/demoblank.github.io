@@ -62,3 +62,43 @@ ul { margin: 0px; padding: 0px;}
 li { box-sizing: content-box;
 display: inline-block; color: white;  padding-left: 5px; padding-right: 5px; }
 a {text-decoration: none; color: black;}
+
+.fa-bars { display: none;}
+/*--------------------------------------------RESPONSIVE--------------------------------------------*/
+
+
+
+@media (max-width: 1100px) {
+.fa-bars {float: right;display: inline-block; padding: 10px;}
+
+  nav:hover ul {display: inline-block;}
+
+
+.navbar {padding: 2px 0px;}
+
+  nav ul, nav:active ul {
+
+  		display: none;
+
+  		background: white;
+   padding: 10px;
+
+
+  	}
+
+  	nav li {
+
+  		text-align: right;
+  		width: 100%;
+  		padding: 5px 0;
+  		margin: 0;
+
+  	}
+
+  	nav:hover ul {
+
+  		display: block;
+
+  	}
+
+}
