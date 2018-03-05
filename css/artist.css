@@ -49,10 +49,10 @@ html, body { height:100%;
     padding: 0;
     border: none;
 }
-header {top: 0;background: white; display: table-row; height: 1px;
+header {top: 0;background: white; display: table-row; height: 1px; width:100%;
 }
 
-.toplogo {box-sizing: border-box;width:100%; padding: 15px; background: black;}
+.toplogo {box-sizing: border-box; width:100%; padding: 15px; background: black;}
 .toplogo a img {width: 100%}
 
 /*--------------------------------------------NAVIGATION--------------------------------------------*/
@@ -169,12 +169,31 @@ body {display: table; width: 100%; height: 100%;}
   display: inline-block;
   background-color: white;
 }
-.content {margin:0px;  padding: 5% 15%;}
+.artists {box-sizing: border-box;padding:5% 15%;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
 
-.content h2, h3, p {padding: 5% 2%;}
+.artists h2 {
+  padding: 2%;
+}
+
+.artists p {
+  padding: 2%;
+  text-align: center;
+}
+
+.artists p a {
+  text-decoration: none;
+  color: black;
+}
 
 
-.content p a {text-decoration: none; color:black;}
+.artists img {
+
+  width:100%;
+}
 /*--------------------------------------------FOOTER--------------------------------------------*/
 
 footer {display: table-row; height:1px;
@@ -312,27 +331,11 @@ only screen and (min-resolution: 192dpi) and (max-width: 768px), only screen and
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);}
 
-    .container {
-      width: 100%;
-      overflow-y: scroll;
-    }
+.container .artists {width:100%;}
 
     .footer {
       float: none;
       width: 100%;
       text-align: center;
-    }
-    .map {
-      overflow: hidden;
-      padding-bottom: 56.25%;
-      position: relative;
-      height: 0;
-    }
-    .map iframe {
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      position: absolute;
     }
   }

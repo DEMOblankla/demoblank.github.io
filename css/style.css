@@ -57,10 +57,10 @@ html {background-image: url("../images/background.png");
 
 .navbar {grid-column: 3 / 4 ; grid-row: 2; width: 49vw; height: 33.33vh;display: inline-flex; align-items: center; justify-content: center;}
 ul { margin: 0px; padding: 0px;}
-.nav-collapse ul li{display: inline;}
+.nav-collapse ul li {display: inline;}
 
 li { box-sizing: content-box;
-display: inline-block; color: white;  padding-left: 5px; padding-right: 5px; }
+display: inline-block; color: white;  padding:5px; }
 a {text-decoration: none; color: black;}
 .navbar .icon {
     display: none;
