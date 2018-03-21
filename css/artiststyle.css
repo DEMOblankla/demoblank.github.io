@@ -52,7 +52,7 @@ html, body { height:100%;
 header {top: 0;background:black; display: table-row; height: 1px;
 }
 
-.toplogo {margin:0;box-sizing: border-box;width:100%; padding: 15px; background: black;}
+.toplogo {margin:0;box-sizing: border-box;width:100%; padding-left: 50px; padding-right:10px; padding-top:10px; padding-bottom: 10px;background: black;}
 .toplogo a img {width: 100%}
 
 /*--------------------------------------------NAVIGATION--------------------------------------------*/
