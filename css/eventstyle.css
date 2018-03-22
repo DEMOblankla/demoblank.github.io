@@ -29,17 +29,17 @@
 }
 
 h2 {
-  font-family: 'open sans', sans-sans-serif;
-  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   font-size: 48px;
 }
 h3 {
-  font-family: 'open sans', sans-sans-serif;
-  font-weight: bold;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
   font-size: 24px;
 }
-h4 {font-family: 'open sans', sans-sans-serif;
-font-weight: bold;
+h4 {font-family: 'Poppins', sans-serif;
+font-weight: 400;
 font-size: 20px;}
 p {
   font-family: 'sansserifflfmedium';
@@ -172,7 +172,7 @@ justify-content: center; text-align: center;
 }
 .content {;margin:0px; width: 80%; padding:5vh 10vw;}
 .content img {width: 100%;}
-.content h2, h3, h4, p {padding: 2%; }
+.content h2, h3, h4, p {padding: 1%; }
 .eventinfo {width: 60%; margin:auto; text-align: left;}
 .content p a { color:black;}
 
